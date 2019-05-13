@@ -6,4 +6,3 @@
 .idea/**/shelf
 node_modules/
 dist/
-dev/
