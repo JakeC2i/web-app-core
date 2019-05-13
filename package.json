@@ -17,6 +17,10 @@
   ],
   "author": "Jakub Chmielewski",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JakeC2i/web-app-core.git"
+  },
   "dependencies": {
     "body-parser": "^1.19.0",
     "brit": "^0.5.0",
