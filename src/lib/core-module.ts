@@ -104,4 +104,7 @@ export enum WebAppEnvironment {
   Prod = 'production'
 }
 
-export const WEB_APP_ENVIRONMENT = process.env.environment || WebAppEnvironment.Dev;
+export const WEB_APP_ENVIRONMENT
+  = (process.env.environment || WebAppEnvironment.Dev)
+  .trim()
+  .toLowerCase();
